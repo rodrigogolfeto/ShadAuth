@@ -2,7 +2,7 @@
 import { Button } from '@/components/ui/button'
 import { Label } from '@/components/ui/label'
 import placeholder from '../../../assets/placeholder.svg'
-import {TextInput} from "@/Components/common/input-group";
+import {TextInput} from "@/components/common/input-group";
 import {useForm, Link} from "@inertiajs/vue3";
 
 defineProps<{

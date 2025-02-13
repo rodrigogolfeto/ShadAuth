@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import { useForm } from '@inertiajs/vue3';
 import placeholder from "../../../assets/placeholder.svg";
-import {Button} from "@/Components/ui/button";
-import { TextInput } from "@/Components/common/input-group";
+import {Button} from "@/components/ui/button";
+import { TextInput } from "@/components/common/input-group";
 
 
 const props = defineProps<{

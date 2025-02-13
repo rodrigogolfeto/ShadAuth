@@ -1,8 +1,8 @@
 <script setup lang="ts">
-import {TextInput} from '@/Components/common/input-group';
+import {TextInput} from '@/components/common/input-group';
 import {Head, Link, useForm} from '@inertiajs/vue3';
 import placeholder from "../../../assets/placeholder.svg";
-import {Button} from "@/Components/ui/button";
+import {Button} from "@/components/ui/button";
 import GuestAuthLayout from "@/Layouts/GuestAuthLayout.vue";
 
 defineOptions({layout: GuestAuthLayout})
